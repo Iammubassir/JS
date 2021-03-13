@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormsAndInput</title>
+</head>
+
+<body>
+    <form inputmode="text" target="backend.js">
+        <h3>Span tags are used here</h3>
+        <label for="name">Name</label>
+        <span>
+            <input type="text" name="myName" id="name">
+        </span>
+        <br>
+        <span>
+            Role: <input type="text" name="myRole">
+        </span>
+        <span>
+            Emailid: <input type="text" name="myEmail">
+        </span>
+    </form>
+    <hr>
+    <h3>div tags are used here</h3>
+    <form inputmode="text" target="backend.jss">
+        <div>
+            Name : <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Role : <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email : <input type="text" name="myEmail">
+
+        </div>
+        <br>
+        <div>
+            Date : <input type="date">
+        </div><br>
+        <div>
+            Bonus: <input type="number" value="Bonus">
+        </div><br>
+        <div>
+            Are you eligible: <input type="checkbox" name="Are you eligible" checked>
+        </div><br>
+        <div>
+            Male: <input type="radio" name="Male"> Female: <input type="radio" name="Male"> Other: <input type="radio"
+                name="Male">
+        </div><br>
+        Tell me about you:<br> <textarea name="Tell me about urselves" cols="70" rows="10"></textarea>
+        <div>
+            <input type="button" value="Submit">
+            <input type="reset" value="Reset">
+
+        </div><br>
+        <label for="myCar">Car</label>
+        <select name="car" id="myCar">
+            <option value="Tata">Tata</option>
+            <option value="Honda" selected>Honda</option>
+            <option value="Maruti suzuki">Maruti</option>
+
+        </select>
+    </form>
+</body>
+
+</html>
