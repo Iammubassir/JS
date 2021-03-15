@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* Element selector */
+        p{
+            background-color: crimson;
+            border: darkmagenta solid;
+        }
+        /* Id selector */
+        #firstid{
+            color: darkmagenta;
+            border-style: dotted;
+            border-top-color: darkmagenta;
+        }
+        /* Grouping selectors */
+        .firstclass,.secondclass{
+            color: rgb(212, 136, 212);
+            border-style: ridge;
+        }
+        /* Class selector */
+        .simple{
+            font-style: oblique;
+            color: darkred;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        This is a normal paragraph
+    </p>
+    <div class="simple">This is also a div</div>
+    <div id="firstid">
+      This is a div element
+    </div>
+    <span class="firstclass">
+      Span tag  
+    </span>
+    <footer class="secondclass">
+      This is a footer
+    </footer>
+</body>
+</html>
