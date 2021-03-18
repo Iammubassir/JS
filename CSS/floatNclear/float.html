@@ -5,23 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">    
     <style>
+        /* .body{
+            text-align: center;
+        } */
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            color: dimgrey;
+            font-style: italic;
+            text-align: center;
+            border:3px rgb(2, 6, 46) solid;
+            background-color: gainsboro;
+        }
+        p,h3{
+            text-align: center;
+            /* text-align: justify; */
+        }
         .container{
+            background-color: rgb(202, 209, 209);
+            font-family:'Syne Mono', monospace;
             border: 5px solid rgb(75, 7, 75);
             border-radius: 6px;
             width: 900px;
             margin: 100px auto;
         }
         .item{
-            background-color: rgb(241, 225, 220);
+            background-color: rgb(235, 235, 223);
             border: 5px solid rgb(209, 118, 118);
             border-radius: 6px;
             padding: 10px 6px;
             margin: 10px 6px;
         }
+        #fruit{
+        float: left;
+        width: 48%;
+        }
+        #computer{
+        float: right;
+        width: 48%;
+        
+        }
+        #item{
+        /* float: left; */
+        width: 100%;
+        clear:both ;
+        }
     </style>
 </head>
 <body>
+    <h1>Welcome to my store</h1>
     <div class="container">
         <div id="fruit" class="item">
             <h3>Fruits</h3>
